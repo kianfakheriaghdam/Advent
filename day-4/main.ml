@@ -42,9 +42,9 @@ let (--) n m =
     if i < n then acc
 
     (* iterate & add the number to accumulator, also decrement *)
-    else aux (i - 1) (i :: acc)
+    else aux (i - 1) (i :: acc) in
   
-  in aux m []
+  aux m []
 
 (* check if even one of a list items is in another one *)
 let rec compare_list first second =

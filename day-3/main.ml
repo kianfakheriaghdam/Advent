@@ -79,7 +79,7 @@ let badge_sum =
   ) groups)
 
 let () =
-  Printf.printf "Ruck-Sacks: %s\n" data;
+  Printf.printf "Ruck-Sacks = %s\n" data;
   
   Printf.printf "Sum of common prioritized items between ruck-sacks = %d\n" equivalent_sum;
   Printf.printf "Sum of each group badge = %d\n" badge_sum;

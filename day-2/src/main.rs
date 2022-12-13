@@ -83,7 +83,7 @@ fn score_by_end(matches: &Vec<Pair>) -> u128 {
 fn main() {
     let matches = get_matchs();
 
-    println!("Matches: {:#?}", matches);
+    println!("Matches = {:#?}", matches);
 
     println!("Our total score durning all the matches based on their item and our item = {:#?}", total_score(&matches));
     println!("Our total score durning all the matches based on their item and our end result = {:#?}", score_by_end(&matches));

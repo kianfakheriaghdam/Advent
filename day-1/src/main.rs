@@ -56,7 +56,7 @@ fn top_calories(elves: Vec<Vec<u32>>) -> u32 {
 fn main() {
     let elves = get_elves();
 
-    println!("Elves' Inventories: {:#?}", elves);
+    println!("Elves' Inventories = {:#?}", elves);
 
     println!("The sum of calories of the elf with most calories = {}", max_calories(&elves));
     println!("The sum of calories of the top three elves with most calories = {}", top_calories(elves));

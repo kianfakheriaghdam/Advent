@@ -83,7 +83,7 @@ let count_overlapped =
   ) pairs)
 
 let main =
-  Printf.printf "Assignments: %s\n" data;
+  Printf.printf "Assignments = %s\n" data;
 
   Printf.printf "Count of pairs that fully contain each-other = %d\n" count_contained;
   Printf.printf "Count of pairs that over-lap each-other = %d\n" count_overlapped

@@ -2,4 +2,4 @@
 
 ## Day 1 & 2 - Rust
 ## Day 3 & 4 - OCaml
-## Day 5 - Python
+## Day 5 & 6 - Python

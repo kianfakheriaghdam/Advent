@@ -60,7 +60,10 @@ for i in seprated[1].split('\n'): stacks_1.move(i)
 for i in seprated[1].split('\n'): stacks_2.new_move(i)
 
 # print the stacks & the last crate of each stack
-print('Stacks & instructions =', data)
+from pprint import PrettyPrinter
+print('Stacks & instructions =', end='')
+PrettyPrinter().pprint(stacks_1.crates)
+print(seprated[1])
 
 print('Modified stacks by Crate-Mover 9000 = ', end='')
 for i in stacks_1.crates.values():
